@@ -8,7 +8,7 @@ Time-series is divided into two classes, periodc time series and non-periodc tim
 
 ![Watch the video](resource1.png)
 
-# Labeling Time Series
+## Labeling Time Series
 
 [Step.1] Run main.py in Anaconda Virtual Environment
 ```rb
@@ -27,3 +27,5 @@ If it has non- periodcity, type
 ```rb
 Type the label(ex: 1- Periodic, 2- Non-Periodic): 2
 ```
+
+## Normalizing Time Series

@@ -34,6 +34,12 @@ Normalizing can unify scale, range, and regularity of time series dataset.
 
 ![Watch the video](resource2.png)
 
+Normalizing code is in below.
+```rb
+def norm(x, train_stats):
+  return (x - train_stats['mean']) / train_stats['std']
+```
+
 ## Divide into Training and Test set
 
 We separted our dataset into 80% of training and 20% of test time series dataset.

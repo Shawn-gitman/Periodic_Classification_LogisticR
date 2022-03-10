@@ -1,7 +1,7 @@
 # Periodic_Classification_LogisticR(PCL) - Summer Intern Research Project(2021) 🕐
-PCL(Periodic Classification Logistic) is a binary classification algorithm that utilizes Logistic Regression to classify time series periodcity. We employed Python, Tensorflow, pandas, and numpy to deploy PCL. It has labeling, pre-processing, and normalizing methods to predict periodcity effectively. We achieved test accuracy as 1 and train loss below 1 as an output.
+PCL(Periodic Classification Logistic) is a binary classification algorithm that utilizes Logistic Regression to classify time series periodicity. We employed Python, Tensorflow, pandas, and NumPy to deploy PCL. It has labeling, pre-processing, and normalizing methods to predict periodicity effectively. We achieved test accuracy as 1 and train loss below 1 as an output.
 
-## Definition of Periodcity
+## Definition of periodicity
 Time-series is divided into two classes, periodc and non-periodc time series. Periodc time series has regular seasonality without noise or pollution. 
 
 ![Watch the video](resource1.png)
@@ -15,7 +15,7 @@ Time-series is divided into two classes, periodc and non-periodc time series. Pe
 
 [Step.3] Label Time-Series.
 
-If it has periodcity, type
+If it has periodicity, type
 ```rb
 Type the label(ex: 1- Periodic, 2- Non-Periodic): 1
 ```

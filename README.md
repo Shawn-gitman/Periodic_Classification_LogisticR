@@ -13,7 +13,7 @@ Time-series is divided into two classes, periodc and non-periodc time series. Pe
 ```
 [Step.2] Define periodic or non-periodic time series.
 
-[Step.3] Label Time-Series
+[Step.3] Label Time-Series.
 
 If it has periodcity, type
 ```rb

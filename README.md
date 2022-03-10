@@ -37,3 +37,13 @@ Normalizing can unify scale, range, and regularity of time series dataset.
 ## Divide into Training and Test set
 
 We separted our dataset into 80% of training and 20% of test time series dataset.
+
+## Hyperparameters
+
+```rb
+learning_rate = 0.003
+batch_size = 30
+iter_num = 50000
+```
+
+## Evaluate PCL

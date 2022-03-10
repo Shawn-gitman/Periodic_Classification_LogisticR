@@ -37,11 +37,33 @@ Normalizing can unify scale, range, and regularity of time series dataset.
 ## Divide into Training and Test set
 
 We separted our dataset into 80% of training and 20% of test time series dataset.
+```rb
+def dataset_split(X, y):
+	seed = 5
+	np.random.seed(seed)
+	tf.set_random_seed(seed)
+
+	# set replace=False, Avoid double sampling
+	train_index = np.random.choice(len(X), round(len(X) * 0.8), replace=False)
+
+	# diff set
+	test_index = np.array(list(set(range(len(X))) - set(train_index)))
+	train_X = X[train_index]
+	train_y = y[train_index]
+	test_X = X[test_index]
+	test_y = y[test_index]
+
+	train_X = min_max_normalized(train_X)
+	test_X = min_max_normalized(test_X)
+
+	print(test_X)
+
+	return train_X, train_y, test_X, test_y
+ ```
 
 ## Hyperparameters
 
 We use 3 parameters of learning_rate, batch_size, and iteration number.
-
 ```rb
 learning_rate = 0.003
 batch_size = 30

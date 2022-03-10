@@ -97,6 +97,9 @@ epoch: 12300 loss: 0.426965 train_acc: 0.900000 test_acc: 0.500000
 epoch: 12600 loss: 0.459104 train_acc: 1.000000 test_acc: 1.000000
 .
 .
+epoch: 49500 loss: 0.398358 train_acc: 1.000000 test_acc: 1.000000
+epoch: 49800 loss: 0.347464 train_acc: 1.000000 test_acc: 1.000000
+
 ```
 
 ## Evaluate PCL

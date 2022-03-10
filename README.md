@@ -33,3 +33,7 @@ Type the label(ex: 1- Periodic, 2- Non-Periodic): 2
 Normalizing can unify scale, range, and regularity of time series dataset. 
 
 ![Watch the video](resource2.png)
+
+## Divide into Training and Test set
+
+We separted our dataset into 80% of training and 20% of test time series dataset.

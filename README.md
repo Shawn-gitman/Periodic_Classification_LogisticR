@@ -100,7 +100,7 @@ After the training process, it redirects to visualize loss and accuracy graph. W
 ![Watch the video](resource3.png)
 
 ## Why accuracy 1?
-PCL has two reasons for this. To solve this problem, PCL should be trained with more dataset along with enough timestamps.
+PCL has two reasons for this. To solve this problem, PCL should train with more dataset along with enough timestamps.
 * Low Amount of Dataset: We trained over 12 time-series dataset due to perparation scarcity.
 * Short Range of Time Series: We used 1000 timestamps in between series.
 

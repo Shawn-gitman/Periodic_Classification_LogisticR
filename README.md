@@ -76,7 +76,7 @@ batch_size = 30
 iter_num = 50000 #epoch
 ```
 
-## Train Our Model
+## Training Model
 
 After the labeling process, it starts training. 
 ```rb
@@ -103,5 +103,7 @@ epoch: 49800 loss: 0.347464 train_acc: 1.000000 test_acc: 1.000000
 ```
 
 ## Evaluate PCL
-After the training process, it redirects to visualize loss and accuracy graph.
+After the training process, it redirects to visualize loss and accuracy graph. We got train and test accuracy as 1.
+
+
 

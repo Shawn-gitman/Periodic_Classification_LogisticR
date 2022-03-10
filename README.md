@@ -37,7 +37,7 @@ def norm(x, train_stats):
 ```
 
 ## Divide into Training and Test set
-We separted our dataset into 80% of training and 20% of test time series dataset.
+We separated our dataset into 80% of training and 20% of test time series dataset.
 ```rb
 def dataset_split(X, y):
 	seed = 5

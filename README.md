@@ -4,6 +4,6 @@ PCL(Periodic Classification Logistic) is a binary classification algorithm that 
 
 ## Definition of Periodcity
 
-Time-series is divided into two classes, periodcity and non-periodcity. Periodcity has regular seasonality without noise or pollution. 
+Time-series is divided into two classes, periodcity and non-periodcity. Periodc time series has regular seasonality without noise or pollution. 
 
 ![Watch the video](resource1.png)

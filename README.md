@@ -73,12 +73,12 @@ We use 3 parameters of learning_rate, batch_size, and iteration number.
 ```rb
 learning_rate = 0.003
 batch_size = 30
-iter_num = 50000
+iter_num = 50000 #epoch
 ```
 
 ## Train Our Model
 
-After labeling process, it starts training. 
+After the labeling process, it starts training. 
 ```rb
 epoch:  300 loss: 0.720158 train_acc: 0.500000 test_acc: 0.500000
 epoch:  600 loss: 0.602131 train_acc: 0.700000 test_acc: 0.500000
@@ -103,5 +103,5 @@ epoch: 49800 loss: 0.347464 train_acc: 1.000000 test_acc: 1.000000
 ```
 
 ## Evaluate PCL
-
+After the training process, it redirects to visualize loss and accuracy graph.
 

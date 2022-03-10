@@ -34,7 +34,7 @@ Normalizing can unify scale, range, and regularity of time series dataset.
 
 ![Watch the video](resource2.png)
 
-Normalizing code is in below.
+Normalizing function is in below.
 ```rb
 def norm(x, train_stats):
   return (x - train_stats['mean']) / train_stats['std']

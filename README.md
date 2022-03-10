@@ -103,7 +103,7 @@ epoch: 49800 loss: 0.347464 train_acc: 1.000000 test_acc: 1.000000
 ```
 
 ## Evaluate PCL
-After the training process, it redirects to visualize loss and accuracy graph. We got train and test accuracy as 1.
+After the training process, it redirects to visualize loss and accuracy graph. We got train and test accuracy as 1 and loss below 1.
 ![Watch the video](resource3.png)
 
 

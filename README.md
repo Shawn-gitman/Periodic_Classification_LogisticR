@@ -11,7 +11,7 @@ Time-series is divided into two classes, periodc and non-periodc time series. Pe
 ```rb
 (timeseries_env) C:\Users\taegu\Desktop\인턴자료\PeriodicClassification>python logistic_regression.py
 ```
-[Step.2] Define periodic or non-periodic time series.
+[Step.2] Define either periodic or non-periodic time series.
 
 [Step.3] Label Time-Series.
 

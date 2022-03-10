@@ -30,4 +30,6 @@ Type the label(ex: 1- Periodic, 2- Non-Periodic): 2
 
 ## Normalizing Time Series
 
-Normalizing method can unify scale, regularity of time series dataset. 
+Normalizing can unify scale, range, and regularity of time series dataset. 
+
+![Watch the video](resource2.png)

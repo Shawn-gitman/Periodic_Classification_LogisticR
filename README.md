@@ -10,7 +10,7 @@ Time-series is divided into two classes, periodc time series and non-periodc tim
 
 ## Labeling Time Series
 
-[Step.1] Run main.py in Anaconda Virtual Environment
+[Step.1] Run main.py in Anaconda virtual environment
 ```rb
 (timeseries_env) C:\Users\taegu\Desktop\인턴자료\PeriodicClassification>python logistic_regression.py
 ```

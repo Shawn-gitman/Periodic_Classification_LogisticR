@@ -7,3 +7,13 @@ PCL(Periodic Classification Logistic) is a binary classification algorithm that 
 Time-series is divided into two classes, periodc time series and non-periodc time series. Periodc time series has regular seasonality without noise or pollution. 
 
 ![Watch the video](resource1.png)
+
+## Labeling
+
+PCL offers labeling functionality.
+
+Step.1 Run main.py
+
+Step.2 Define periodic or non-periodic time series.
+
+Step.3 Label Time-Series

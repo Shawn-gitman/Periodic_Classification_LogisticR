@@ -99,9 +99,9 @@ epoch: 49800 loss: 0.347464 train_acc: 1.000000 test_acc: 1.000000
 After the training process, it redirects to visualize loss and accuracy graph. We got train and test accuracy as 1 and loss below 1.
 ![Watch the video](resource3.png)
 
-## Why is accuracy 1?
-
-
-* 
+## Why accuracy 1?
+PCL has two reasons for this.
+* Low Amount of Dataset: We trained over 12 time-series dataset which is significantly low amount. 
+* Short Range of Time Series: We used 1000 Timestamp in between series.
 
 
